@@ -1,0 +1,35 @@
+{
+  "name": "documents-app",
+  "version": "0.1.0",
+  "bin": {
+    "documents-app": "bin/documents-app.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "watch": "tsc -w",
+    "test": "jest",
+    "cdk": "cdk"
+  },
+  "devDependencies": {
+    "aws-cdk": "1.129.0",
+    "@aws-cdk/assert": "1.129.0",
+    "@types/jest": "^26.0.10",
+    "@types/node": "10.17.27",
+    "jest": "^26.4.2",
+    "ts-jest": "^26.2.0",
+    "ts-node": "^9.0.0",
+    "typescript": "~3.9.7"
+  },
+  "dependencies": {
+    "@aws-cdk/aws-apigateway": "*",
+    "@aws-cdk/aws-cognito": "*",
+    "@aws-cdk/aws-dynamodb": "*",
+    "@aws-cdk/aws-lambda": "*",
+    "@aws-cdk/aws-lambda-event-sources": "*",
+    "@aws-cdk/aws-lambda-nodejs": "*",
+    "@aws-cdk/aws-s3": "^1.129.0",
+    "@aws-cdk/aws-sqs": "1.129.0",
+    "@aws-cdk/core": "1.129.0",
+    "@types/puppeteer-core": "^5.4.0"
+  }
+}
